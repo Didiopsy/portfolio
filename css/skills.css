@@ -1,0 +1,54 @@
+/* ============================================
+   SKILLS
+   ============================================ */
+#skills {
+  padding: var(--section-padding);
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.skill-category {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  transition: border-color var(--transition), transform var(--transition);
+}
+.skill-category:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+.skill-category h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.skill-category ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.skill-category li {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding-left: 16px;
+  position: relative;
+  transition: color var(--transition);
+}
+.skill-category li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+.skill-category li:hover {
+  color: var(--text);
+}

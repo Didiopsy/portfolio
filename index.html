@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Métadonnées -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Prénom Nom, développeur web passionné par le code propre et les interfaces modernes.">
+  <!-- Icon TEMPORAIRE -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>{ }</text></svg>">
+  <title>Adan Hamitouche — Développeur Web</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- ===================== NAVIGATION ===================== -->
+
+  <header>
+    <nav id="navbar">
+      <a href="#hero" class="nav-logo">ÐÐ</a>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">
+        ☰
+      </button>
+    </nav>
+  </header>
+  <!-- ===================== CONTENU PRINCIPAL ===================== -->
+
+  <main>
+
+    <!-- ── SECTION HERO ── -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-intro">Bonjour, je suis</p>
+        <h1 class="hero-name">Adan Hamitouche</h1>
+        <h2 class="hero-title">Développeur Web</h2>
+        <p class="hero-desc">
+          Passionné par le code propre et les interfaces modernes.
+          À la recherche d'une alternance en développement web.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="assets/cv/Hamitouche_Adan.pdf" class="btn btn-secondary" target="_blank">
+            Télécharger mon CV
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <!-- ── SECTION À PROPOS ── -->
+
+    <section id="about">
+      <h2 class="section-title reveal">À propos</h2>
+
+      <div class="about-content reveal">
+        <div class="about-text reveal">
+          <p>
+            Développeur web,
+            j'ai une solide base en programmation système
+            acquise en C, que j'applique aujourd'hui
+            au développement web.
+          </p>
+          <p>
+            Je cherche à rejoindre une formation bac+5 en
+            développement d'applications web pour approfondir
+            mes compétences.
+          </p>
+        </div>
+
+        <div class="about-info">
+          <ul class="info-list">
+            <li>
+              <span class="info-label">Formation</span>
+              <span class="info-value">Développeur Web Autodidacte</span>
+            </li>
+            <li>
+              <span class="info-label">Localisation</span>
+              <span class="info-value">Marseille, France</span>
+            </li>
+            <li>
+              <span class="info-label">Disponibilité</span>
+              <span class="info-value">Immédiate</span>
+            </li>
+            <li>
+              <span class="info-label">GitHub</span>
+              <a href="https://github.com/Didiopsy" target="_blank">
+                github.com/Didiopsy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ── SECTION COMPÉTENCES ── -->
+
+    <section id="skills">
+      <h2 class="section-title reveal">Compétences</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 sémantique</li>
+            <li>CSS3 / Flexbox / Grid</li>
+            <li>JavaScript ES6+</li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3>Systèmes & Outils</h3>
+          <ul>
+            <li>C</li>
+            <li>Rust</li>
+            <li>Git / GitHub</li>
+            <li>Linux / Terminal</li>
+          </ul>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3>En apprentissage</h3>
+          <ul>
+            <li>CSS avancé</li>
+            <li>JS DOM manipulation</li>
+            <li>Responsive design</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <!-- ── SECTION PROJETS ── -->
+
+    <section id="projects">
+      <h2 class="section-title reveal">Projets</h2>
+      <div id="projects-grid" class="reveal">
+      </div>
+    </section>
+    <!-- ── SECTION CONTACT ── -->
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-content">
+        <p class="contact-desc">
+          Tu as un projet, une opportunité d'alternance,
+          ou juste envie d'échanger ? Écris-moi.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:adan.hamitouche@gmail.com" class="contact-link">
+            ✉ adan.hamitouche@gmail.com
+          </a>
+          <a href="https://github.com/Didiopsy" target="_blank" class="contact-link">
+            ⌥ GitHub
+          </a>
+          <a href="https://linkedin.com/in/adan-hamitouche-6497142b6" target="_blank" class="contact-link">
+            in LinkedIn
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <!-- ===================== PIED DE PAGE ===================== -->
+
+  <footer>
+    <p>Fait par Adan Hamitouche — 2026</p>
+  </footer>
+<!-- le HTML est construit avant que JS s'exécute -->
+
+  <script src="js/projects.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

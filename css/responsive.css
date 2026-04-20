@@ -1,0 +1,56 @@
+/* ============================================
+   RESPONSIVE — TABLETTE (max 1024px)
+   ============================================ */
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+/* ============================================
+   RESPONSIVE — MOBILE (max 768px)
+   ============================================ */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--bg);
+    padding: 32px 8%;
+    gap: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  /* Skills : 1 colonne */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-cta {
+    flex-direction: column;
+  }
+  .btn {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* ============================================
+   RESPONSIVE — PETIT MOBILE (max 480px)
+   ============================================ */
+@media (max-width: 480px) {
+
+  :root {
+    --section-padding: 60px 5%;
+  }
+}
