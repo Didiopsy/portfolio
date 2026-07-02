@@ -4,6 +4,14 @@
 // ============================================
 const projects = [
   {
+    title: "Carot Clicker",
+    description: "Mini Game Jam d'un weekend et premier jeu fais en Rust sous bevy.",
+    tags: ["Rust", "Bevy"],
+    image: "assets/img/carot.png",
+    github: "https://github.com/Didiopsy/projet_bevy",
+    demo: "https://didiopsyyy.itch.io/carots"
+  },
+  {
     title: "The Storm",
     description: "Première JAM hors scolaire d'une semaine fait avec GDevelop",
     tags: ["GDevelop"],
